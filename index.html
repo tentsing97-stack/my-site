@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ваше Имя — визитка</title>
+  <title>Тинтюков Сергей Глебович</title>
   <style>
     :root {
       --bg: #f4f1ec;
@@ -65,7 +65,7 @@
     }
     p + p { margin-top: 10px; }
     .contacts { list-style: none; display: grid; gap: 10px; }
-    .contacts a {
+    .contacts a, .contacts-city {
       display: flex; align-items: center; gap: 12px;
       padding: 12px 16px;
       border-radius: 10px;
@@ -82,27 +82,28 @@
 <body>
   <div class="wrap">
     <header>
-      <div class="avatar">ВИ</div>
-      <h1>Ваше Имя</h1>
-      <div class="role">Чем вы занимаетесь</div>
+      <div class="avatar">СТ</div>
+      <h1>Тинтюков Сергей Глебович</h1>
+      <div class="role">Сыктывкар</div>
     </header>
 
     <section>
       <h2>Обо мне</h2>
-      <p>Привет! Меня зовут Ваше Имя. Здесь можно коротко рассказать о себе: чем вы занимаетесь, что умеете и что вам интересно.</p>
-      <p>Добавьте пару фраз о своём опыте, увлечениях или о том, с чем к вам можно обратиться.</p>
+      <p>Здравствуйте! Меня зовут Сергей Глебович Тинтюков. Я родился 7&nbsp;ноября 1969&nbsp;года в Сыктывкаре и живу здесь до сих пор.</p>
+      <p>У меня есть сын Глеб.</p>
     </section>
 
     <section>
       <h2>Контакты</h2>
       <ul class="contacts">
+        <li><div class="contacts-city"><span class="label">Город</span>Сыктывкар</div></li>
         <li><a href="mailto:you@example.com"><span class="label">Почта</span>you@example.com</a></li>
         <li><a href="https://t.me/username"><span class="label">Telegram</span>@username</a></li>
         <li><a href="https://github.com/username"><span class="label">GitHub</span>github.com/username</a></li>
       </ul>
     </section>
 
-    <footer>© 2026 Ваше Имя</footer>
+    <footer>© 2026 Тинтюков Сергей Глебович</footer>
   </div>
 </body>
 </html>
